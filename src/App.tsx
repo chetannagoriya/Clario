@@ -5,7 +5,7 @@ import HowItWorks from './components/HowItWorks';
 import Advantages from './components/Advantages';
 import Landing from './components/Landing';
 import Footer from './components/Footer';
-import { Analytics } from "@vercel/analytics/next"
+
 
 export default function App() {
   return (
@@ -17,7 +17,6 @@ export default function App() {
       <Advantages />
       <Landing />
       <Footer />
-      <Analytics />
     </div>
   );
 }
